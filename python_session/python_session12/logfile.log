@@ -1,0 +1,7 @@
+Wed May 30 18:37:47 2018-DEBUG-this is a debug message
+Wed May 30 18:37:47 2018-INFO-this is an info message
+Wed May 30 18:37:47 2018-WARNING-this is a warning message
+Wed May 30 18:37:47 2018-ERROR-this is a error message
+Wed May 30 18:37:47 2018-CRITICAL-this is a critical message
+Wed May 30 18:39:17 2018-ERROR-this is a error message
+Wed May 30 18:39:17 2018-CRITICAL-this is a critical message

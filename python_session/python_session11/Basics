@@ -1,0 +1,152 @@
+sessitra@VTA010L:~$ python
+Python 2.7.12 (default, Dec  4 2017, 14:50:18) 
+[GCC 5.4.0 20160609] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> name = "padma"
+>>> name = 'padma'
+>>> dir(name)
+['__add__', '__class__', '__contains__', '__delattr__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getslice__', '__gt__', '__hash__', '__init__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '_formatter_field_name_split', '_formatter_parser', 'capitalize', 'center', 'count', 'decode', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'index', 'isalnum', 'isalpha', 'isdigit', 'islower', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+>>> id(name)
+140684858534144
+>>> type(name)
+<type 'str'>
+>>> help(name.replace)
+
+>>> msg = "hi there how are you where are you"
+>>> msg.split()
+['hi', 'there', 'how', 'are', 'you', 'where', 'are', 'you']
+>>> msg.split("r")
+['hi the', 'e how a', 'e you whe', 'e a', 'e you']
+>>> msg
+'hi there how are you where are you'
+>>> msg.replace("are", "here")
+'hi there how here you where here you'
+>>> msg
+'hi there how are you where are you'
+>>> msg[0]
+'h'
+>>> msg[1]
+'i'
+>>> msg[0]='t'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+>>> l = [12, 34, 45, 09]
+  File "<stdin>", line 1
+    l = [12, 34, 45, 09]
+                      ^
+SyntaxError: invalid token
+>>> l = [12, 34, 45, 99]
+>>> type(l)
+<type 'list'>
+>>> id(l)
+140684832010040
+>>> dir(l)
+['__add__', '__class__', '__contains__', '__delattr__', '__delitem__', '__delslice__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getslice__', '__gt__', '__hash__', '__iadd__', '__imul__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__rmul__', '__setattr__', '__setitem__', '__setslice__', '__sizeof__', '__str__', '__subclasshook__', 'append', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
+>>> help(l.append)
+
+>>> l.append(87
+... )
+>>> l
+[12, 34, 45, 99, 87]
+>>> l.append(12, 32)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: append() takes exactly one argument (2 given)
+>>> l.append([12, 32])
+>>> l
+[12, 34, 45, 99, 87, [12, 32]]
+>>> l.extend([12, 32])
+>>> l
+[12, 34, 45, 99, 87, [12, 32], 12, 32]
+>>> for i in 100:
+...     print i
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object is not iterable
+>>> for i in 12.2:
+...     print i
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'float' object is not iterable
+>>> for i in True:
+...     print i
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'bool' object is not iterable
+>>> for i in [12, 32, 1]:
+...     print i
+... 
+12
+32
+1
+>>> for i in {"ram":12, "varsha":111}:
+...     print i
+... 
+ram
+varsha
+>>> for i in {12, 121}:
+...     print i
+... 
+121
+12
+>>> for i in 12,32:
+...     print i
+... 
+12
+32
+>>> k = 10,
+>>> type(k)
+<type 'tuple'>
+>>> k = 10
+>>> type(k)
+<type 'int'>
+>>> [i+2 for i in [12, 32, 44]]
+[14, 34, 46]
+>>> range(1,11)
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+>>> [i+10 for i in range(1,11))
+  File "<stdin>", line 1
+    [i+10 for i in range(1,11))
+                              ^
+SyntaxError: invalid syntax
+>>> [i+10 for i in range(1,11)]
+[11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+>>> s =[]
+>>> for i in range(1,11):
+...     s.append(i+10)
+... 
+>>> s
+[11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+>>> import this
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+>>> d = {"ram":99, "krishna":100, "swati":81, "kavya":92}
+>>> 
+>>> d = {"ram":99, "krishna":100, "swati":81, "kavya":92}
+>>> d
+{'krishna': 100, 'ram': 99, 'swati': 81, 'kavya': 92}
+>>> 
+

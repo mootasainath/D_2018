@@ -1,0 +1,240 @@
+sessitra@VTA010L:~$ cd /usr/lib/python3/dist-packages
+sessitra@VTA010L:/usr/lib/python3/dist-packages$ ls
+apport
+apport_python_hook.py
+apt
+aptdaemon
+apt_inst.cpython-35m-x86_64-linux-gnu.so
+apt_pkg.cpython-35m-x86_64-linux-gnu.so
+aptsources
+AptUrl
+apturl-0.5.2.egg-info
+beautifulsoup4-4.4.1.egg-info
+blinker
+blinker-1.3.egg-info
+Brlapi-0.6.4.egg-info
+brlapi.cpython-35m-x86_64-linux-gnu.so
+bs4
+cairo
+_cffi_backend.cpython-35m-x86_64-linux-gnu.so
+chardet
+chardet-2.3.0.egg-info
+checkbox_support
+checkbox_support-0.22.egg-info
+CommandNotFound
+command_not_found-0.3.egg-info
+cryptography
+cryptography-1.2.3.egg-info
+cups.cpython-35m-x86_64-linux-gnu.so
+cupsext.cpython-35m-x86_64-linux-gnu.so
+cupshelpers
+curl
+dbus
+_dbus_bindings.cpython-35m-x86_64-linux-gnu.so
+_dbus_glib_bindings.cpython-35m-x86_64-linux-gnu.so
+deb822.py
+debconf.py
+debian
+debian_bundle
+defer
+defer-1.0.6.egg-info
+DistUpgrade
+feedparser-5.1.3.egg-info
+feedparser.py
+feedparser_sgmllib3.py
+gi
+guacamole
+guacamole-0.9.2.egg-info
+hpmudext.cpython-35m-x86_64-linux-gnu.so
+html5lib
+html5lib-0.999.egg-info
+httplib2
+httplib2-0.9.1.egg-info
+idna
+idna-2.0.egg-info
+janitor
+jinja2
+Jinja2-2.8.egg-info
+jwt
+LanguageSelector
+language_selector-0.1.egg-info
+language_support_pkgs.py
+louis
+louis-2.6.4.egg-info
+lsb_release.py
+lxml
+lxml-3.5.0.egg-info
+mako
+Mako-1.0.3.egg-info
+markupsafe
+MarkupSafe-0.23.egg-info
+NvidiaDetector
+oauthlib
+oauthlib-1.0.3.egg-info
+Onboard
+onboard-1.2.0.egg-info
+orca
+padme
+padme-1.1.1.egg-info
+pcardext.cpython-35m-x86_64-linux-gnu.so
+pexpect
+pexpect-4.0.1.egg-info
+PIL
+Pillow-3.1.2.egg-info
+pkg_resources
+plainbox
+plainbox-0.25.egg-info
+problem_report.py
+ptyprocess
+ptyprocess-0.5.egg-info
+pyasn1
+pyasn1-0.1.9.egg-info
+pyatspi
+__pycache__
+pycups-1.9.73.egg-info
+pycurl-7.43.0.egg-info
+pycurl.cpython-35m-x86_64-linux-gnu.so
+pygobject-3.20.0.egg-info
+pygtkcompat
+PyJWT-1.3.0.egg-info
+pyparsing-2.0.3.egg-info
+pyparsing.py
+python_apt-1.1.0.b1_ubuntu0.16.04.1.egg-info
+python_debian-0.1.27.egg-info
+python_systemd-231.egg-info
+pyxdg-0.25.egg-info
+Quirks
+reportlab
+reportlab-3.3.0.egg-info
+requests
+requests-2.9.1.egg-info
+scanext.cpython-35m-x86_64-linux-gnu.so
+sessioninstaller
+sessioninstaller-0.0.0.egg-info
+six-1.10.0.egg-info
+six.py
+softwareproperties
+speechd
+speechd_config
+ssh_import_id
+ssh_import_id-5.5.egg-info
+systemd
+system_service-0.3.egg-info
+UbuntuDrivers
+ubuntu_drivers_common-0.0.0.egg-info
+UbuntuSystemService
+ufw
+ufw-0.35.egg-info
+unattended_upgrades-0.1.egg-info
+unity_scope_calculator-0.1.egg-info
+unity_scope_chromiumbookmarks-0.1.egg-info
+unity_scope_colourlovers-0.1.egg-info
+unity_scope_devhelp-0.1.egg-info
+unity_scope_firefoxbookmarks-0.1.egg-info
+unity_scope_gdrive-0.7.egg-info
+unity_scope_manpages-0.1.egg-info
+unity_scope_openclipart-0.1.egg-info
+unity_scope_texdoc-0.1.egg-info
+unity_scope_tomboy-0.1.egg-info
+unity_scope_virtualbox-0.1.egg-info
+unity_scope_yelp-0.1.egg-info
+unity_scope_zotero-0.1.egg-info
+unohelper.py
+uno.py
+UpdateManager
+urllib3
+urllib3-1.13.1.egg-info
+usbcreator
+usb_creator-0.3.0.egg-info
+xdg
+xdiagnose
+xdiagnose-3.8.4.1.egg-info
+xkit
+xkit-0.0.0.egg-info
+xlsxwriter
+XlsxWriter-0.7.3.egg-info
+sessitra@VTA010L:/usr/lib/python3/dist-packages$ ls xml*
+ls: cannot access 'xml*': No such file or directory
+sessitra@VTA010L:/usr/lib/python3/dist-packages$ ls xm*
+ls: cannot access 'xm*': No such file or directory
+sessitra@VTA010L:/usr/lib/python3/dist-packages$ cd ~
+sessitra@VTA010L:~$ cd /usr/lib/python3.5
+sessitra@VTA010L:/usr/lib/python3.5$ ls
+abc.py                        html                   selectors.py
+aifc.py                       http                   shelve.py
+antigravity.py                idlelib                shlex.py
+argparse.py                   imaplib.py             shutil.py
+ast.py                        imghdr.py              signal.py
+asynchat.py                   importlib              _sitebuiltins.py
+asyncio                       imp.py                 sitecustomize.py
+asyncore.py                   inspect.py             site.py
+base64.py                     io.py                  smtpd.py
+bdb.py                        ipaddress.py           smtplib.py
+binhex.py                     json                   sndhdr.py
+bisect.py                     keyword.py             socket.py
+_bootlocale.py                lib2to3                socketserver.py
+bz2.py                        lib-dynload            sqlite3
+calendar.py                   LICENSE.txt            sre_compile.py
+cgi.py                        linecache.py           sre_constants.py
+cgitb.py                      locale.py              sre_parse.py
+chunk.py                      logging                ssl.py
+cmd.py                        lzma.py                statistics.py
+codecs.py                     macpath.py             stat.py
+codeop.py                     macurl2path.py         stringprep.py
+code.py                       mailbox.py             string.py
+collections                   mailcap.py             _strptime.py
+_collections_abc.py           _markupbase.py         struct.py
+colorsys.py                   mimetypes.py           subprocess.py
+_compat_pickle.py             modulefinder.py        sunau.py
+compileall.py                 multiprocessing        symbol.py
+_compression.py               netrc.py               symtable.py
+concurrent                    nntplib.py             _sysconfigdata.py
+config-3.5m-x86_64-linux-gnu  ntpath.py              sysconfig.py
+configparser.py               nturl2path.py          tabnanny.py
+contextlib.py                 numbers.py             tarfile.py
+copy.py                       opcode.py              telnetlib.py
+copyreg.py                    operator.py            tempfile.py
+cProfile.py                   optparse.py            test
+crypt.py                      os.py                  textwrap.py
+csv.py                        _osx_support.py        this.py
+ctypes                        pathlib.py             _threading_local.py
+curses                        pdb.py                 threading.py
+datetime.py                   __phello__.foo.py      timeit.py
+dbm                           pickle.py              tkinter
+decimal.py                    pickletools.py         tokenize.py
+difflib.py                    pipes.py               token.py
+dis.py                        pkgutil.py             traceback.py
+distutils                     platform.py            tracemalloc.py
+doctest.py                    plat-x86_64-linux-gnu  trace.py
+dummy_threading.py            plistlib.py            tty.py
+_dummy_thread.py              poplib.py              turtle.py
+email                         posixpath.py           types.py
+encodings                     pprint.py              typing.py
+enum.py                       profile.py             unittest
+filecmp.py                    pstats.py              urllib
+fileinput.py                  pty.py                 uuid.py
+fnmatch.py                    __pycache__            uu.py
+formatter.py                  pyclbr.py              venv
+fractions.py                  py_compile.py          warnings.py
+ftplib.py                     _pydecimal.py          wave.py
+functools.py                  pydoc_data             weakref.py
+__future__.py                 pydoc.py               _weakrefset.py
+genericpath.py                _pyio.py               webbrowser.py
+getopt.py                     queue.py               wsgiref
+getpass.py                    quopri.py              xdrlib.py
+gettext.py                    random.py              xml
+glob.py                       reprlib.py             xmlrpc
+gzip.py                       re.py                  zipapp.py
+hashlib.py                    rlcompleter.py         zipfile.py
+heapq.py                      runpy.py
+hmac.py                       sched.py
+sessitra@VTA010L:/usr/lib/python3.5$ cd xml
+sessitra@VTA010L:/usr/lib/python3.5/xml$ ls
+dom  etree  __init__.py  parsers  __pycache__  sax
+sessitra@VTA010L:/usr/lib/python3.5/xml$ cd etree
+sessitra@VTA010L:/usr/lib/python3.5/xml/etree$ ls
+cElementTree.py    ElementPath.py  __init__.py
+ElementInclude.py  ElementTree.py  __pycache__
+sessitra@VTA010L:/usr/lib/python3.5/xml/etree$ vi ElementTree.py 
+sessitra@VTA010L:/usr/lib/python3.5/xml/etree$ 
+

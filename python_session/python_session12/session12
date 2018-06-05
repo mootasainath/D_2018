@@ -1,0 +1,12 @@
+read_files/
+	----txt_reader.py
+	----__init__.py
+	----/comp_reader/
+			----gzipped.py
+			----bzipped.py
+			----__init__.py
+
+
+package is a directory consisting of __init__.py	 file.
+
+module is a python file with .py extension.
